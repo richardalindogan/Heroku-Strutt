@@ -1,0 +1,6 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "~2.6",
+        "sendgrid/sendgrid": "~5.0.9"
+    }
+}
