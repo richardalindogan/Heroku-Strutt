@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0:
+}
+body{
+    background: url(https://s3.amazonaws.com/strutt-heroku-image-content/wallpapers/loginW.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.text-center{
+    margin-top: 3%;
+}
+.text-center a{
+    font-family: 'Oleo Script', cursive;
+    font-size: 100px;
+    text-decoration: none;
+    color: white;
+}
+.text-center a:hover{
+    color: #d1d1d1;
+}
+.text-center p{
+    margin-top: -24px;
+    font-family: 'Nova Flat', cursive;
+    font-size: 32px;
+    color: white;
+}
+.btn-inverse{
+    background-color:#d15656;
+}
+#register_form{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1%; 
+}
+form p{
+    color: white;
+}
+.form-group{
+    padding-bottom: 1%;
+}
+.form-group label{
+    color:white;
+}

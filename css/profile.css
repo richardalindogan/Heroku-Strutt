@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+#navbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container-fluid{
+    width: 80%;
+}
+.navbar,.jumbotron{
+   margin-bottom: 0;
+}
+.navbar-brand{
+    font-family: 'Oleo Script', cursive;
+}
+.navbar-inverse .navbar-brand:hover{
+    color: #f24069;
+}
+.jumbotron{
+    /*Create a separate php script for setting profile background*/
+    background-repeat: no-repeat;
+    background-image: url("http://aristotleii.monmouth.edu/~s0876956/Strutt/Assets/bg2.png");
+    background-size: cover;
+}
+#wrapper{
+    padding: 10px 0px 10px 0px;
+}
+#profile{
+    margin: auto;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+}
+.profile-header-img{
+    padding-top: 25px;
+}
+.img-circle{
+    margin:auto;
+}
+#profile_name{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+#profile_name > h1, #profile_name > p{
+    padding: 0;
+    margin: 0;
+}
+#profile_name > h1{
+    padding-top: 10px;
+    font-size: 50px;
+    float: left;
+}
+#description{
+    font-size: 12px;
+}
+.glyphicon-search{
+    color: white;
+    font-size: 15px;
+}
+/*thumbnail rows*/
+#post_row{
+    width: 65%;
+    margin: auto;
+}
+
+/*post containers*/
+#post_container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* post thumbnails */
+.thumbnail{
+    margin: 0;
+    padding: 0;
+    border-color: white;
+}
+#post{
+     box-shadow: -15px 10px #73c8dd;
+}
+.thumbnail .caption {
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.caption >div{
+    display: inline-block;
+}
+/*for formatting the like and views info*/
+.caption>div>div,.caption >div>p{
+    color: #909090;
+    padding-left:5px;
+    padding-right:5px; 
+    float: left;
+}

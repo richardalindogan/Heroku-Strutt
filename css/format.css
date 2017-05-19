@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+#navbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.jumbotron{
+    color:white;
+    background: url(https://s3.amazonaws.com/strutt-heroku-image-content/wallpapers/struttW.png)no-repeat center center fixed;
+    background-size: cover;
+}
+.jumbotron h1{
+    font-family: 'Oleo Script', cursive;
+    font-size: 90px;
+}
+.container-fluid{
+    width: 80%;
+}
+.navbar,.jumbotron{
+   margin-bottom: 0;
+}
+.navbar-brand{
+    font-family: 'Oleo Script', cursive;
+}
+.navbar-inverse .navbar-brand:hover{
+    color: #f24069;
+}
+.glyphicon-search{
+    color: white;
+    font-size: 15px;
+}
+/*thumbnail rows*/
+#post_row{
+    width: 65%;
+    margin: auto;
+}
+
+/*post containers*/
+#post_container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* post thumbnails */
+.thumbnail{
+    margin: 0;
+    padding: 0;
+    border-color: white;
+}
+#post{
+     box-shadow: -15px 10px #73c8dd;
+}
+.thumbnail .caption {
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.caption >div{
+    display: inline-block;
+}
+/*for formatting the like and views info*/
+.caption>div>div,.caption >div>p{
+    color: #909090;
+    padding-left:5px;
+    padding-right:5px; 
+    float: left;
+}
